@@ -25,8 +25,14 @@
         <spring.version>3.0.5.RELEASE</spring.version>
     </properties>
 	
-	<scm>
-		<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
-	</scm>
-
+    <scm>
+	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>${repo-id}</id>
+            <name>${repo-name}</name>
+            <url>${repo-url}</url>
+        </repository>
+    </distributionManagement>
 </project>
