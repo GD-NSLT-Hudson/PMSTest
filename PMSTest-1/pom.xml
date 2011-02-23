@@ -16,4 +16,12 @@
     <scm>
 	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>${repo-id}</id>
+            <name>${repo-name}</name>
+            <url>${repo-url}</url>
+        </repository>
+    </distributionManagement>
+
 </project>
