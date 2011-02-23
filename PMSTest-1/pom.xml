@@ -13,4 +13,7 @@
     <properties>
         <spring.batch.version>2.1.6.RELEASE</spring.batch.version>
     </properties>
+    <scm>
+	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
+    </scm>
 </project>
