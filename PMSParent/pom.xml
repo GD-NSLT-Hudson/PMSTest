@@ -7,7 +7,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Nautilus</name>
-    <relativePath>./PMSParent</relativePath>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.6.1</slf4j.version>
@@ -21,17 +20,6 @@
     <scm>
 	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
     </scm>
-    <build>	
-    <plugins>
-	<plugin>
-	   <artifactId>maven-release-plugin</artifactId>
-       	   <version>2.1</version>
-    	   <configuration>
-     		<workingDirectory>${project.build.directory}/checkout/PMSParent</workingDirectory>
-    	   </configuration>
-       </plugin>
-   </plugins>
-   </build>
     <distributionManagement>
         <repository>
             <id>${repo-id}</id>
