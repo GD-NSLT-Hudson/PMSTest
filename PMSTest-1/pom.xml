@@ -3,11 +3,11 @@
     <parent>
 	<groupId>com.inetpsa.nautilus</groupId>
         <artifactId>pms-parent</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
 	<relativePath>../</relativePath> 
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <artifactId>pms-test1</artifactId>
 
     <properties>
