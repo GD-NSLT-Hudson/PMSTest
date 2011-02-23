@@ -4,7 +4,7 @@
 
     <groupId>com.inetpsa.nautilus</groupId>
     <artifactId>pms-parent</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Nautilus</name>
     <properties>
@@ -20,6 +20,20 @@
     <scm>
 	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
     </scm>
+    <build>
+    <plugins>
+	  <plugin>
+	    <artifactId>maven-release-plugin</artifactId>
+	    <version>2.1</version>
+	    <configuration>
+	      <!--
+	        During release:perform, enable the "release" profile
+	       -->
+	      <pomFileName>PMSParent/pom.xml</pomFileName>
+	    </configuration>
+	  </plugin>
+    </plugins>
+    </build>
     <distributionManagement>
         <repository>
             <id>${repo-id}</id>
