@@ -21,6 +21,7 @@
     <scm>
 	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
     </scm>
+    <build>	
     <plugins>
 	<plugin>
 	   <artifactId>maven-release-plugin</artifactId>
@@ -30,7 +31,7 @@
     	   </configuration>
        </plugin>
    </plugins>
-
+   </build>
     <distributionManagement>
         <repository>
             <id>${repo-id}</id>
