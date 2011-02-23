@@ -8,11 +8,6 @@
     <packaging>pom</packaging>
     <name>Nautilus</name>
 
-    <modules>
-        <module>PMSTest-1</module>
-        <module>PMSTest-2</module>
-    </modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.6.1</slf4j.version>
