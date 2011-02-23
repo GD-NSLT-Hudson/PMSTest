@@ -4,10 +4,10 @@
 
     <groupId>com.inetpsa.nautilus</groupId>
     <artifactId>pms-parent</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Nautilus</name>
-
+    <relativePath>./PMSParent</relativePath>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.6.1</slf4j.version>
