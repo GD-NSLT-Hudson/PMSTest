@@ -21,14 +21,15 @@
     <scm>
 	<connection>scm:git:ssh://git@github.com/GD-NSLT-Hudson/PMSTest.git</connection>
     </scm>
-
-    <plugin>
-	<artifactId>maven-release-plugin</artifactId>
-    	<version>2.1</version>
-    	<configuration>
+    <plugins>
+	<plugin>
+	   <artifactId>maven-release-plugin</artifactId>
+       	   <version>2.1</version>
+    	   <configuration>
      		<workingDirectory>${project.build.directory}/checkout/PMSParent</workingDirectory>
-    	</configuration>
-    </plugin>
+    	   </configuration>
+       </plugin>
+   </plugins>
 
     <distributionManagement>
         <repository>
