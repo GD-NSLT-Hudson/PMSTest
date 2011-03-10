@@ -7,7 +7,7 @@
 	<relativePath>../PMSParent/</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <artifactId>pms-test1</artifactId>
 
     <properties>
